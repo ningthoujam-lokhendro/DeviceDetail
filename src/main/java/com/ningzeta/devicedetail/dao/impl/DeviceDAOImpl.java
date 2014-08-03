@@ -22,7 +22,7 @@ public class DeviceDAOImpl implements DeviceDAO{
 
 	@Override
 	public DeviceDTO getDeviceByMAC(String mac) {
-		String SQL = "select * from DeviceDetails where oui = ?";
+		String SQL = "select * from DeviceDetails where mac = ?";
 		DeviceDTO device = jdbcTemplateObj.queryForObject(SQL, 
 													   new Object[]{mac},
 													   new DeviceMapper()

@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS devices;
 USE devices;
 
 CREATE TABLE DeviceDetails ( MAC CHAR(6) NOT NULL,
-Manufacturer VARCHAR(200) NOT NULL);
+Manufacturer VARCHAR(256) NOT NULL);
 
 INSERT INTO DeviceDetails (MAC, Manufacturer) 
 VALUES ('681605', 'Systems And Electronic Development FZCO');
@@ -33096,9 +33096,6 @@ INSERT INTO DeviceDetails (MAC, Manufacturer)
 VALUES ('44C9A2', 'Greenwald Industries');
 
 INSERT INTO DeviceDetails (MAC, Manufacturer) 
-VALUES ('6089B7', 'KAEL MÃƒÆ’Ã…â€œHENDÃƒâ€žÃ‚Â°SLÃƒâ€žÃ‚Â°K ELEKTRONÃƒâ€žÃ‚Â°K TÃƒâ€žÃ‚Â°CARET SANAYÃƒâ€žÃ‚Â° LÃƒâ€žÃ‚Â°MÃƒâ€žÃ‚Â°TED Ãƒâ€¦Ã…Â¾Ãƒâ€žÃ‚Â°RKETÃƒâ€žÃ‚Â°');
-
-INSERT INTO DeviceDetails (MAC, Manufacturer) 
 VALUES ('30C82A', 'Wi-Next s.r.l.');
 
 INSERT INTO DeviceDetails (MAC, Manufacturer) 
@@ -34337,8 +34334,7 @@ VALUES ('002394', 'Samjeon');
 INSERT INTO DeviceDetails (MAC, Manufacturer) 
 VALUES ('002395', 'Motorola Mobility, Inc.');
 
-INSERT INTO DeviceDetails (MAC, Manufacturer) 
-VALUES ('002396', 'ANDES TECHNOLOGY CORPORATION'E (MAC, Manufacturer) 
+INSERT INTO DeviceDetails (MAC, Manufacturer)
 VALUES ('002396', 'ANDES TECHNOLOGY CORPORATION');
 
 INSERT INTO DeviceDetails (MAC, Manufacturer) 
@@ -53276,5 +53272,3 @@ VALUES ('00A05A', 'KOFAX IMAGE PRODUCTS');
 
 INSERT INTO DeviceDetails (MAC, Manufacturer) 
 VALUES ('D0D0FD', 'CISCO SYSTEMS, INC.');
-
-INSERT INTO HVLANDIS

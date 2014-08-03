@@ -12,7 +12,7 @@ public class DeviceMapper implements RowMapper<DeviceDTO>{
 	@Override
 	public DeviceDTO mapRow(ResultSet resultSet, int arg1) throws SQLException {
 		DeviceDTO device = new DeviceDTO();
-		device.setOui(resultSet.getString("oui"));
+		device.setMac(resultSet.getString("mac"));
 		device.setManufacturer(resultSet.getString("manufacturer"));
 		
 		return device;

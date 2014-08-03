@@ -21,7 +21,7 @@ public class ServiceController {
 	
 	@RequestMapping(value = "/REST/getdevicebymac/{mac}", 
 					method = RequestMethod.GET)
-	public DeviceDTO getDeviceByOUI(@PathVariable String mac){
+	public DeviceDTO getDeviceByMAC(@PathVariable String mac){
 
 		DeviceDTO device = ddImpl.getDeviceByMAC(mac);
 		return device;

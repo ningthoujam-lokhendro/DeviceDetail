@@ -16,15 +16,15 @@ public interface DeviceDAO {
 	public void setDataSource(DataSource dataSource) ;
 	
 	/**
-	 * Get Device details for a given OUI.
-	 * @param oui.
+	 * Get Device details for a given MAC.
+	 * @param mac.
 	 * @return Device.
 	 */
-	public DeviceDTO getDeviceByMAC(String oui);
+	public DeviceDTO getDeviceByMAC(String mac);
 	
 	/**
 	 * Get list of Devices for a given Manufacturer
-	 * @param oui
+	 * @param mac
 	 * @return List of Devices.
 	 */
 	public List<DeviceDTO> getDeviceByManufacturer(String manufacturer);

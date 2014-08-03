@@ -6,15 +6,15 @@ package com.ningzeta.devicedetail.model.dto;
  */
 public class DeviceDTO {
 	
-	private String oui;
+	private String mac;
 	private String manufacturer;
 	
-	public String getOui() {
-		return oui;
+	public String getMac() {
+		return mac;
 	}
 	
-	public void setOui(String oui) {
-		this.oui = oui;
+	public void setMac(String mac) {
+		this.mac = mac;
 	}
 	
 	public String getManufacturer() {

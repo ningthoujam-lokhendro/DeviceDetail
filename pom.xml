@@ -60,7 +60,7 @@
   </dependencies>
   
   <build>
-    <finalName>DeviceDetail-${project.version}</finalName>
+    <finalName>DeviceDetail</finalName>
 	<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
