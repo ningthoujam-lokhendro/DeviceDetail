@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>redis-device-oui</context-root>
+</jboss-web>
