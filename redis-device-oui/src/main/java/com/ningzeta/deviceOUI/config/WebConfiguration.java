@@ -10,11 +10,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * Copyright (c) 2016 Nokia.
- * All rights reserved.
- * <p>
- * Nokia. Proprietary/Trade Secret ; Information
- * Not to be disclosed or used except in accordance with applicable agreements.
+ * Springfox swagger configuration
  *
  * @author Ningthoujam Lokhendro
  * @since 5/18/2016
