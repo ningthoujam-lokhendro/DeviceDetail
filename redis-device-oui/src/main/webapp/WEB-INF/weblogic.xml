@@ -10,7 +10,7 @@
         </wls:prefer-application-packages>
     </wls:container-descriptor>
     <wls:security-role-assignment>
-        <wls:role-name>SV_User</wls:role-name>
+        <wls:role-name>MY_USERS</wls:role-name>
         <wls:externally-defined/>
     </wls:security-role-assignment>
 </wls:weblogic-web-app>
